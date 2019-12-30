@@ -1,0 +1,32 @@
+{
+  "name": "ncr-github-api",
+  "version": "1.0.0",
+  "description": "Github API of a user",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noecr-dev/ncr-github-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "api",
+    "github"
+  ],
+  "author": "NCR",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Noecr-dev/ncr-github-api/issues"
+  },
+  "homepage": "https://github.com/Noecr-dev/ncr-github-api#readme",
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "nock": "^11.7.0"
+  }
+}
